@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-bar{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.harold {
+    text-align: center;
+}
+
+img {
+    width: 200pxpx;
+    height: 200px;
+    animation: rotation 2s 5s linear;
+    /* animation-duration: 5s; */
+    animation-delay: 1s;
+    /* animation-direction: reverse; */
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+}
